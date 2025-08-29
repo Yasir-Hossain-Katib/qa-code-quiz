@@ -10,3 +10,5 @@ Management simply asks that these tests provide as much evidence as possible of 
 ### Notes
 - Submission must include a link to a public fork/clone of this repository
 - We typically use Jest for testing node.js/API related logic and Cypress for testing UI functionality, however, you are more than welcome to use any testing framework you desire so long as you are able to provide reasonable justification
+
+

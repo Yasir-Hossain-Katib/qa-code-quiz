@@ -10,6 +10,11 @@ module.exports = {
   },
   devServer: {
     compress: true,
+    port: 8080,
+    hot: true,
+    open: true,
+    historyApiFallback: true,
+    contentBase: path.join(__dirname, 'dist')
   },
   module: {
     rules: [
@@ -19,12 +24,6 @@ module.exports = {
         options: {
           transpileOnly: true
         }
-      },
-      {
-        enforce: "pre",
-        test: /\.js$/,
-        exclude: /node_modules\/(@meldcx\/agent)/,
-        loader: "source-map-loader"
       },
       {
         test: /\.(png|jpe?g|gif|svg|wav)$/i,
@@ -41,7 +40,7 @@ module.exports = {
       template: "./src/index.html"
     })
   ],
-  devtool: "source-map",
+  devtool: "eval-source-map",
   resolve: {
     extensions: [".js", ".ts", ".tsx"]
   }

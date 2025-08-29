@@ -2,10 +2,6 @@ import React, {useContext} from 'react';
 import {AuthContext} from '../../contexts/auth';
 import styled from 'styled-components';
 
-type HeaderProps = {
-    loggedInUser: string
-}
-
 const AccountContainer = styled.div`
     display: flex;
     flex-direction: column;
