@@ -58,11 +58,15 @@ npx cypress run    # Run tests in headless mode
 ```
 
 ### Cypress end-to-end testing 
-
 ![Cypress end-to-end testing](assets/Screenshot%20from%202025-08-29%2023-44-12.png)
+
 ![Cypress end-to-end testing](assets/Screenshot%20from%202025-08-29%2023-44-45.png)
+
 ![Cypress end-to-end testing](assets/Screenshot%20from%202025-08-29%2023-45-03.png)
+
+### API Testing with Jest
 ![Cypress end-to-end testing](assets/Screenshot%20from%202025-08-29%2023-45-52.png)
+
 ![Cypress end-to-end testing](assets/Screenshot%20from%202025-08-29%2023-46-29.png)
 
 
