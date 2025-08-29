@@ -13,7 +13,7 @@ Management simply asks that these tests provide as much evidence as possible of 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Testing Implemented
+# Testing Implemented
 ### Test Framework Used
  - Cypress for e2e testing
  - Jest for api testing
@@ -57,5 +57,6 @@ npx cypress open   # Open Cypress UI
 npx cypress run    # Run tests in headless mode
 ```
 
+### Cypress end-to-end testing 
 
 
