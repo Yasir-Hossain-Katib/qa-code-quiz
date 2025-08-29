@@ -1,0 +1,53 @@
+{
+    "validUsers": [
+        {
+            "username": "SomeUser_name",
+            "password": "TopSecret1234!",
+            "name": "SomeName",
+            "favouriteFruit": "some fruit",
+            "favouriteMovie": "The Room",
+            "favouriteNumber": "BN<1234>"
+        },
+
+        {
+            "username": "dummytree",
+            "password": "test1",
+            "favouriteFruit": "Mango",
+            "favouriteMovie": "V for Vendetta",
+            "favouriteNumber": "The last prime number"
+        }
+    ],
+
+
+    "invalidUsers": [
+        {
+            "username": " ",
+            "password": " "
+        },
+
+        {
+            "username" : "SomeUser_name",
+            "password": " "
+        },
+
+        {
+            "username" : " ",
+            "password" : "TopSecret1234!"
+        },
+
+        {
+            "username": "wrong@gmail",
+            "password": "test1"
+        },
+
+        {
+            "username": "dummytree",
+            "password": "wrongpassword"
+        },
+        
+        {
+            "username": "wronguser",
+            "password": "wrongpass"
+        }
+    ]
+}

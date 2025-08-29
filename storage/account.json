@@ -11,5 +11,13 @@
         "favouriteFruit": "Mango",
         "favouriteMovie": "V for Vendetta",
         "favouriteNumber": "The last prime number"
+    },
+    "testuser2": {
+        "name": "Test Name 2",
+        "favouriteFruit": "banana"
+    },
+    "qa_user_2": {
+        "name": "QA User Two",
+        "favouriteFruit": "apple"
     }
 }
