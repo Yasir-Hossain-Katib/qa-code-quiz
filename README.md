@@ -59,4 +59,4 @@ npx cypress run    # Run tests in headless mode
 
 ### Cypress end-to-end testing 
 
-
+!(assets/Screenshot from 2025-08-29 23-44-12.png)
